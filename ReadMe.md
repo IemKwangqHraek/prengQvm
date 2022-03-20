@@ -3865,8 +3865,8 @@
 | 以開三蒸入  | 弋      | ivk        | jyk        | jik        | yik        |
 | 精開三蒸入  | 即      | tsvk       | tsyk       | cik        | tsik       |
 | 幫三蒸入    | 逼      | prvk       | pyik       | pik        | pik        |
-| 云合三蒸入  | 域      | ruk        | uik        | yk         | hwik       |
-| 曉合三蒸入  | 洫      | hruk       | huik       | hyk        | xwik       |
+| 云合三蒸入  | 域      | ryvk       | uik        | yk         | hwik       |
+| 曉合三蒸入  | 洫      | hryvk      | huik       | hyk        | xwik       |
 | 滂三蒸入    | 堛      | phrvk      | phyik      | phik       | phik       |
 | 莊開三蒸入  | 稄      | tsrvk      | tsryk      | crik       | tsrik      |
 | 並三蒸入    | 愎      | brvk       | byik       | bik        | bik        |

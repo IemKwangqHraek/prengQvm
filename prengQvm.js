@@ -87,7 +87,7 @@ function get介音() {
 }
 
 function get韻核() {
-  if (is('之蒸侵欣微韻'))           return is脣化 ? 'u' : 'v';
+  if (is('之蒸侵欣微韻'))           return is脣化 && !is('蒸韻') ? 'u' : 'v';
   if (is('脂眞臻幽韻'))             return 'i';
   if (is('尤侯東文韻'))             return 'u';
   if (is('冬韻'))                   return 'ow'; 
@@ -144,7 +144,7 @@ if (介音 == 'v' && 'ui'.includes(韻核)) 介音 = '';
 
 if (介音 == 'u' && 韻核 == 'i') 介音 = 'y';
 
-if (介音 == 'u' && 韻核 == 'v') 韻核 = 'u';
+if (介音 == 'u' && 韻核 == 'v' && !is('蒸韻')) 韻核 = 'u';
 
 if (聲母.endsWith('r')) {
   if (介音 == 'v') 介音 = 'i';
@@ -178,7 +178,7 @@ if (聲母 == 'i' && 韻核 == 'u') 聲母 = 'y';
 
 if ('uv'.includes(韻核)) {
   if (介音.includes('i')) 介音 = 介音.replace('i', '');
-  if (介音.includes('y')) 介音 = 介音.replace('y', '');
+  if (介音.includes('y') && 韻核 == 'u') 介音 = 介音.replace('y', '');
 }
 
 /**
@@ -190,7 +190,7 @@ if (字頭 == '打' && is('庚韻')) {
   介音 = '';
 }
 
-if (字頭 == '冷' && is('庚韻')) 介音 = '';
+if (音韻地位.描述 == '來開二庚上') 介音 = '';
 
 let result = 聲母 + 隔音符號 + 介音 + 韻核 + 韻尾 + 聲調;
 
