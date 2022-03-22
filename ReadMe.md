@@ -1182,7 +1182,7 @@
 | 從三尤平    | 酋      | dzu        | dzu        | ziu        | dzjuw      |
 | 心三尤平    | 脩      | su         | su         | siu        | sjuw       |
 | 徹三尤平    | 抽      | thru       | trhu       | thriu      | trhjuw     |
-| 溪三尤平    | 𠁫      | khu        | khu        | khiu       | khjuw      |
+| 溪三尤平    | 𠁫      | khriw      | khyiw      | khiu       | khjuw      |
 | 昌三尤平    | 犫      | thju       | tjhu       | chju       | tsyhuw     |
 | 章三尤平    | 周      | tju        | tju        | cju        | tsyuw      |
 | 常三尤平    | 讎      | dju        | dju        | zju        | dzyuw      |
